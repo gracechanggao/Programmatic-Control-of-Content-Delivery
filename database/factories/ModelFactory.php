@@ -23,10 +23,3 @@ $factory->define(App\User::class, function (Faker\Generator $faker) {
 });
 
 
-
-$factory->define(App\Arti::class, function ($faker) {
-  return [
-    'title' => $faker->sentence(mt_rand(3, 10)),
-    'content' => join("\n\n", $faker->paragraphs(mt_rand(3, 6))),
-  ];
-});
