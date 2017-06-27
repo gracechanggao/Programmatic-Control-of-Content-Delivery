@@ -10,7 +10,7 @@ Home page
 ![Homepage](https://github.com/gracechanggao/Programmatic-Control-of-Content-Delivery/blob/master/image/home.png)
 
 Add Question
-![AddQuestion](https://github.com/gracechanggao/Programmatic-Control-of-Content-Delivery/blob/master/image/createpage.png.png)
+![AddQuestion](https://github.com/gracechanggao/Programmatic-Control-of-Content-Delivery/blob/master/image/createpage.png)
 
 
 ## Description
@@ -34,6 +34,8 @@ The second idea was written the network by python and call the training function
 
 
 ## Set-up
+
+The webpage cannot be directly open after downloading from git because the Laravel not fully setup in the computer.
 
 There are existing three ways to open the software. 
 1. Using the own server inside the PHP. 1)Go to the file which contains the project, input     php -S localhost:8999 -t public   2) visit localhost:8999 in the browser.
